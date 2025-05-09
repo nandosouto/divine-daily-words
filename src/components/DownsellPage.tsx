@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -148,7 +147,7 @@ const DownsellPage: React.FC = () => {
             </a>
             <a href="https://pay.cakto.com.br/itbbung" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" className="border-softBlue-500 text-softBlue-500 hover:bg-softBlue-100 py-3 px-6 rounded-md text-lg w-full md:w-auto">
-                Saber mais, sem compromisso
+                Quero perder essa oferta que Deus me mandou
               </Button>
             </a>
           </div>
