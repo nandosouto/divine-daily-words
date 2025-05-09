@@ -1,16 +1,12 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Book, CircleArrowRight } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
-
 const DownsellPage: React.FC = () => {
   const isMobile = useIsMobile();
-  
-  return (
-    <div className="min-h-screen bg-beige-100 font-montserrat">
+  return <div className="min-h-screen bg-beige-100 font-montserrat">
       {/* Header Section with Background - Optimized for mobile */}
       <div className="relative w-full h-[250px] md:h-[400px] bg-gradient-to-b from-beige-200 to-beige-100 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=70')] md:bg-[url('https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80')] bg-cover bg-center"></div>
@@ -45,9 +41,7 @@ const DownsellPage: React.FC = () => {
               Se você ainda está em busca de um guia diário para te fortalecer, a solução está aqui! Imagine poder receber uma palavra poderosa todos os dias, inspirando sua jornada e trazendo clareza em momentos cruciais. Sem complicação, só a força da palavra divina!
             </p>
             <a href="https://pay.cakto.com.br/ns4fk9q" target="_blank" rel="noopener noreferrer">
-              <Button className="bg-softBlue-500 hover:bg-softBlue-600 text-white py-2 md:py-3 px-4 md:px-6 rounded-md text-base md:text-lg animate-pulse-glow shadow-lg w-full md:w-auto">
-                Clique aqui para começar agora por apenas R$ 16,90
-              </Button>
+              <Button className="bg-softBlue-500 hover:bg-softBlue-600 text-white py-2 md:py-3 px-4 md:px-6 rounded-md text-base md:text-lg animate-pulse-glow shadow-lg w-full md:w-auto"> começar agora por apenas R$ 16,90</Button>
             </a>
           </div>
         </Card>
@@ -150,9 +144,7 @@ const DownsellPage: React.FC = () => {
               </Button>
             </a>
             <a href="https://pay.cakto.com.br/itbbung" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto">
-              <Button variant="outline" className="border-softBlue-500 text-softBlue-500 hover:bg-softBlue-100 py-2 md:py-3 px-4 md:px-6 rounded-md text-base md:text-lg w-full">
-                Quero perder essa oferta que Deus me mandou
-              </Button>
+              <Button variant="outline" className="border-softBlue-500 text-softBlue-500 hover:bg-softBlue-100 py-2 md:py-3 px-4 md:px-6 rounded-md text-base md:text-lg w-full"> perder essa oferta que Deus mandou</Button>
             </a>
           </div>
         </div>
@@ -163,8 +155,6 @@ const DownsellPage: React.FC = () => {
           <p className="mt-2">Este site não está afiliado com nenhuma denominação religiosa específica.</p>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default DownsellPage;
